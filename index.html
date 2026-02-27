@@ -3,81 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Srujeesh Haridas - Portfolio</title>
+  <title>Srujeesh Haridas | Senior Project Coordinator</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* This makes your resume link look like a professional button */
-    .resume-btn {
-      background-color: #007bff;
-      color: white !important;
-      padding: 8px 15px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-    .resume-btn:hover {
-      background-color: #0056b3;
-    }
+    :root { --primary: #007bff; --success: #28a745; --dark: #333; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--dark); max-width: 900px; margin: 0 auto; padding: 20px; }
+    header { border-bottom: 3px solid var(--primary); padding-bottom: 20px; margin-bottom: 30px; }
+    nav a { margin-right: 15px; text-decoration: none; color: var(--primary); font-weight: bold; }
+    .resume-btn { background: var(--primary); color: white !important; padding: 10px 15px; border-radius: 5px; }
+    .impact-box { background: #e9f7ef; border-left: 5px solid var(--success); padding: 20px; margin: 20px 0; }
+    .project-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+    .badge { background: #eee; padding: 3px 8px; border-radius: 3px; font-size: 0.8em; }
+    h2 { color: var(--primary); text-transform: uppercase; font-size: 1.2em; border-bottom: 1px solid #eee; padding-bottom: 5px; }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Srujeesh Haridas</h1>
-    <p>Senior Spatial Data Specialist</p>
+    <p><strong>Senior Project Coordinator | Spatial Data Specialist</strong></p>
+    <p>📍 Kalyan, Maharashtra, India | 10+ Years Experience</p>
     <nav>
-      <a href="#about">About</a>
       <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#contact">Contact</a>
-      <a href="Srujeesh_Haridas_Resume.pdf" class="resume-btn" target="_blank">Download Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#awards">Awards</a>
+      <a href="resume.pdf" class="resume-btn" target="_blank">Download Resume PDF</a>
     </nav>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Experienced geospatial and mapping industry professional with 9 years of expertise in managing multi-regional projects across APAC and EMEA. Proven track record in vendor management, stakeholder engagement, and resource optimization. Skilled in delivering high-quality projects, improving efficiency, and fostering strong team collaboration.</p>
+  <section class="impact-box">
+    <h2>🚀 Operational Excellence Impact</h2>
+    <p>Led two major <strong>Lean A3 initiatives</strong> reducing 47,652 labor hours and achieving <strong>€238,260 in total cost savings</strong>. Expert in Root Cause Analysis (RCA) and process optimization.</p>
   </section>
 
   <section id="experience">
-    <h2>Experience</h2>
-    <h3>Senior Spatial Data Specialist - Here Technologies</h3>
-    <p>April 2021 - Present</p>
+    <h2>Professional Experience</h2>
+    <h3>HERE Solutions India | Senior Spatial Data Specialist</h3>
+    <p><em>April 2021 – Present</em></p>
     <ul>
-      <li>Adhered to project frameworks and maintained updated documentation for all projects.</li>
-      <li>Vendor onboarding and training, ensuring adherence to project specifications and boosting operational efficiency.</li>
-      <li>Delivered quarterly projects with 100% on-time completion.</li>
+      <li><strong>Vendor Strategy:</strong> Directed on-site vendor training in Hyderabad, improving global quality alignment.</li>
+      <li><strong>Governance:</strong> Managing end-to-end execution of quarterly projects across APAC and EMEA.</li>
+      <li><strong>Quality:</strong> Maintaining 99%+ QA rates; reduced customer complaints by 20% through PCA frameworks.</li>
     </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Key Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>UWS EMEA Dashboard</h3>
+        <p>Automated tracking for 150k+ spatial tasks using Power BI and Python to identify high-priority backlogs.</p>
+        <a href="#">View Repository →</a>
+      </div>
+      <div class="card">
+        <h3>Lean A3 Workflow</h3>
+        <p>Systemic bottleneck identification and data-coding optimization resulting in 20% faster delivery.</p>
+        <span class="badge">Lean Methodology</span> <span class="badge">RCA</span>
+      </div>
+    </div>
   </section>
 
   <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>GIS Tools: Arc Map, HERE Atlas</li>
-      <li>Project Management: JIRA, Confluence, Clarity PPM</li>
-      <li>Microsoft Office: Excel, PowerPoint, Word</li>
-    </ul>
+    <h2>Technical Stack</h2>
+    <p>
+      <strong>GIS:</strong> ArcMap, ArcGIS, HERE Atlas, Map Creator <br>
+      <strong>PM Tools:</strong> JIRA, Confluence, Clarity PPM, MS Excel (Advanced) <br>
+      <strong>Methods:</strong> Lean Six Sigma, Agile, Scrum, Train the Trainer
+    </p>
   </section>
 
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Certified ScrumMaster® (CSM®)</li>
-      <li>Lean Six Sigma White Belt</li>
-    </ul>
+  <section id="awards">
+    <h2>Awards</h2>
+    <p>🏆 Pioneer Award (2025) | 🏅 Operational Excellence (2023, 2021) | ✨ Golden Impulse (2019)</p>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: srujeesh@gmail.com</p>
-    <p>Phone: +91-8976306225</p>
-    <p><a href="https://www.linkedin.com/in/srujeesh" target="_blank">LinkedIn</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2024 Srujeesh Haridas</p>
+  <footer style="margin-top: 50px; font-size: 0.9em; text-align: center;">
+    <p>© 2026 Srujeesh Haridas | <a href="https://linkedin.com/in/srujeeshharidas">LinkedIn</a> | srujeeshharidas@gmail.com</p>
   </footer>
+
 </body>
 </html>
-
