@@ -1,88 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Srujeesh Haridas | Senior Project Coordinator</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    :root { --primary: #007bff; --success: #28a745; --dark: #333; }
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--dark); max-width: 900px; margin: 0 auto; padding: 20px; }
-    header { border-bottom: 3px solid var(--primary); padding-bottom: 20px; margin-bottom: 30px; }
-    nav a { margin-right: 15px; text-decoration: none; color: var(--primary); font-weight: bold; }
-    .resume-btn { background: var(--primary); color: white !important; padding: 10px 15px; border-radius: 5px; }
-    .impact-box { background: #e9f7ef; border-left: 5px solid var(--success); padding: 20px; margin: 20px 0; }
-    .project-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    .card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
-    .badge { background: #eee; padding: 3px 8px; border-radius: 3px; font-size: 0.8em; }
-    h2 { color: var(--primary); text-transform: uppercase; font-size: 1.2em; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Srujeesh Haridas | Program & Project Coordinator</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f7f9fc;
+color:#333;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:30px;
+}
+
+header{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+margin-bottom:30px;
+}
+
+h1{
+margin:0;
+font-size:32px;
+}
+
+.subtitle{
+color:#666;
+margin-top:5px;
+}
+
+.contact{
+margin-top:10px;
+font-size:14px;
+}
+
+.button{
+display:inline-block;
+margin-top:15px;
+padding:10px 16px;
+background:#007bff;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.section{
+background:white;
+padding:25px;
+border-radius:10px;
+margin-bottom:25px;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.section h2{
+margin-top:0;
+border-bottom:1px solid #eee;
+padding-bottom:10px;
+}
+
+.metrics{
+display:flex;
+gap:30px;
+margin-top:15px;
+}
+
+.metric{
+text-align:center;
+}
+
+.metric h3{
+margin:0;
+color:#007bff;
+}
+
+.job{
+margin-bottom:20px;
+}
+
+.job-title{
+font-weight:bold;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:10px;
+}
+
+.skill{
+background:#eef3ff;
+padding:6px 10px;
+border-radius:5px;
+font-size:14px;
+}
+
+footer{
+text-align:center;
+font-size:14px;
+color:#777;
+margin-top:30px;
+}
+
+</style>
+
 </head>
+
 <body>
 
-  <header>
-    <h1>Srujeesh Haridas</h1>
-    <p><strong>Senior Project Coordinator | Spatial Data Specialist</strong></p>
-    <p>📍 Kalyan, Maharashtra, India | 10+ Years Experience</p>
-    <nav>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#awards">Awards</a>
-      <a href="resume.pdf" class="resume-btn" target="_blank">Download Resume PDF</a>
-    </nav>
-  </header>
+<div class="container">
 
-  <section class="impact-box">
-    <h2>🚀 Operational Excellence Impact</h2>
-    <p>Led two major <strong>Lean A3 initiatives</strong> reducing 47,652 labor hours and achieving <strong>€238,260 in total cost savings</strong>. Expert in Root Cause Analysis (RCA) and process optimization.</p>
-  </section>
+<header>
 
-  <section id="experience">
-    <h2>Professional Experience</h2>
-    <h3>HERE Solutions India | Senior Spatial Data Specialist</h3>
-    <p><em>April 2021 – Present</em></p>
-    <ul>
-      <li><strong>Vendor Strategy:</strong> Directed on-site vendor training in Hyderabad, improving global quality alignment.</li>
-      <li><strong>Governance:</strong> Managing end-to-end execution of quarterly projects across APAC and EMEA.</li>
-      <li><strong>Quality:</strong> Maintaining 99%+ QA rates; reduced customer complaints by 20% through PCA frameworks.</li>
-    </ul>
-  </section>
+<h1>Srujeesh Haridas</h1>
 
-  <section id="projects">
-    <h2>Key Projects</h2>
-    <div class="project-grid">
-      <div class="card">
-        <h3>VPD filter implementation</h3>
-        <p>Idea raised and supported for implementation of VPD filters which reduces the user time to analyse VPDs and therefore improving the task resolution time</p>
-        <a href="#"></a>
-      </div>
-      <div class="card">
-        <h3>Identification of incorrect tasks in pipeline</h3>
-        <p>Systemic bottleneck identification and data-coding optimization resulting in 20% faster delivery.</p>
-        <span class="badge">Lean Methodology</span> <span class="badge">RCA</span>
-      </div>
-    </div>
-  </section>
+<p class="subtitle">
+Senior Project Coordinator | Geospatial Operations Specialist
+</p>
 
-  <section id="skills">
-    <h2>Technical Stack</h2>
-    <p>
-      <strong>GIS:</strong> ArcMap, HERE Atlas, Map Creator <br>
-      <strong>Project Management Tools:</strong> JIRA, Confluence, Clarity PPM, MS Excel (Advanced) <br>
-      <strong>Methods:</strong> Lean Six Sigma, Agile, Scrum, RCA, Train the Trainer
-    </p>
-  </section>
+<p class="contact">
+📍 Kalyan, Maharashtra, India |  
+📧 srujeeshharidas@gmail.com |  
+📞 +91 9769471386
+</p>
 
-  <section id="awards">
-    <h2>Awards</h2>
-    <p>🏆 Pioneer Award (2025) | 🏅 Operational Excellence (2023, 2021) | ✨ Golden Impulse (2019)</p>
-  </section>
+<a class="button" href="resume.pdf">Download Resume</a>
 
-  <footer style="margin-top: 50px; font-size: 0.9em; text-align: center;">
-    <p>© 2026 Srujeesh Haridas | <a href="https://linkedin.com/in/srujeeshharidas">LinkedIn</a> | srujeeshharidas@gmail.com</p>
-  </footer>
+</header>
+
+<section class="section">
+
+<h2>Professional Summary</h2>
+
+<p>
+Project Coordination and Geospatial Operations professional with 
+<strong>10+ years of experience</strong> delivering global data programs across 
+APAC and EMEA regions. Proven expertise in stakeholder coordination, 
+vendor management, project execution tracking, and Lean process 
+improvement initiatives.
+</p>
+
+<p>
+Led operational improvements resulting in <strong>€238,260 cost savings</strong> 
+and elimination of <strong>47,652 labor hours</strong>.
+</p>
+
+</section>
+
+
+<section class="section">
+
+<h2>Career Impact</h2>
+
+<div class="metrics">
+
+<div class="metric">
+<h3>€238K</h3>
+<p>Operational Savings</p>
+</div>
+
+<div class="metric">
+<h3>47,652</h3>
+<p>Labor Hours Reduced</p>
+</div>
+
+<div class="metric">
+<h3>99%+</h3>
+<p>Quality Rate</p>
+</div>
+
+<div class="metric">
+<h3>20%</h3>
+<p>Complaint Reduction</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Professional Experience</h2>
+
+<div class="job">
+
+<p class="job-title">
+HERE Solutions India — Senior Spatial Data Specialist
+</p>
+
+<p><em>Apr 2021 – Present</em></p>
+
+<ul>
+
+<li>Coordinate execution of geospatial data projects across APAC & EMEA.</li>
+
+<li>Led Lean A3 initiatives delivering €238k operational savings.</li>
+
+<li>Managed vendor training, audits and delivery quality alignment.</li>
+
+<li>Maintained 99%+ quality assurance for global mapping programs.</li>
+
+<li>Facilitated stakeholder collaboration for risk resolution.</li>
+
+</ul>
+
+</div>
+
+
+<div class="job">
+
+<p class="job-title">
+Spatial Data Specialist II
+</p>
+
+<p><em>Apr 2018 – Mar 2021</em></p>
+
+<ul>
+
+<li>Improved delivery timelines by 20% through workflow optimization.</li>
+
+<li>Identified operational bottlenecks and streamlined data workflows.</li>
+
+</ul>
+
+</div>
+
+
+<div class="job">
+
+<p class="job-title">
+Spatial Data Specialist I
+</p>
+
+<p><em>Oct 2015 – Mar 2018</em></p>
+
+<ul>
+
+<li>Improved project efficiency by 25% through technical issue resolution.</li>
+
+<li>Mentored junior analysts as Subject Matter Expert.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Skills & Tools</h2>
+
+<div class="skills">
+
+<span class="skill">Project Coordination</span>
+<span class="skill">Stakeholder Management</span>
+<span class="skill">Vendor Management</span>
+<span class="skill">Lean Six Sigma</span>
+<span class="skill">Agile & Scrum</span>
+<span class="skill">Root Cause Analysis</span>
+<span class="skill">JIRA</span>
+<span class="skill">Confluence</span>
+<span class="skill">Clarity PPM</span>
+<span class="skill">ArcGIS</span>
+<span class="skill">ArcMap</span>
+<span class="skill">HERE Atlas</span>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Awards & Recognition</h2>
+
+<ul>
+
+<li>Pioneer Award — 2025</li>
+
+<li>Operational Excellence Award — 2023, 2021</li>
+
+<li>Golden Impulse Award — 2019</li>
+
+<li>Rising Star Award — 2017</li>
+
+</ul>
+
+</section>
+
+
+<footer>
+
+<p>
+© 2026 Srujeesh Haridas |
+<a href="https://linkedin.com/in/srujeeshharidas">LinkedIn</a>
+</p>
+
+</footer>
+
+</div>
 
 </body>
 </html>
-
-
